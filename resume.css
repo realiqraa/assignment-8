@@ -1,0 +1,72 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume{
+    background-color:antiquewhite;
+    width: auto;
+    padding: 40px;
+}
+header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.name{
+    background-color: antiquewhite;
+    color: black;
+    font-style: normal;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+.title{
+    font-size: 1.5em;
+    color: rgb(43, 31, 31);
+}
+.contact{
+    color: black;
+    font-size: 1em;
+}
+h2 {
+    color:black;
+    border-bottom: 2px solid #9c27b0;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.work-experience.job.education .degree{
+    font-weight: bold;
+}
+.company{
+    font-weight: bold;
+}
+.position,
+.major{
+    font-weight: bold;
+    color: black;
+    font-size:1.3em;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 0.9em;
+    color: #444;
+    line-height: 1.5;
+}
+.skills-languages-references {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.skills ul,
+.languages ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li,
+.languages ul li {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #444;
+}
+.references p {
+    margin-bottom: 1px;
+}
